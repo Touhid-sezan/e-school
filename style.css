@@ -1,3 +1,4 @@
+/* START HEADER CSS */
 .container {
     margin-bottom: 100px;
 }
@@ -14,15 +15,102 @@ a.navbar-brand {
     width: 40%;
     padding: 15px 0px;
 }
+.red-text {
+color: #FB6F3F;
+font-weight: 400;
+}
+h1 {
+    font-weight: 700;
+}
+span {
+    color: #21b573;
+}
 .green-button {
     background-color: #21B573;
     padding: 5px 20px;
     border: none;
     border-radius: 20px;
 }
+.col-md-5 .green-button {
+    margin-top: 20px;
+}
+/* END HEADER CSS */
 
+/* START LITTLE INFO CSS */
+.card {
+    text-align: center;
+    border: none;
+    padding: 20px;
+}
+.card img {
+    width: 40%;
+    margin: 0 auto;
+}
+.card-highlight {
+    box-shadow: 5px 5px 10px gray;
+}
+/* END LITTLE INFO CSS */
 
+/* START COURSES CSS */
+h1.courses-section-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+#courses-image img {
+    width: 100%;
+}
+#course-starting img {
+    width: 10%;
+}
+#course-starting p {
+    margin-top: 17px;
+}
+/* END COURSES CSS */
 
+/* START TESTIMONIAL CSS */
+.testimonial {
+    background-color: salmon;
+}
+.testimonial h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: beige;
+}
+.carousel-item img {
+    width: 15%;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+.carousel-caption {
+    position: static;
+}
+.carousel-caption h5 {
+    color: yellow;
+}
+.carousel-indicators {
+    bottom: -10px;
+}
+/* END TESTIMONIAL CSS */
 
-
-FB6F3F
+/* START FOOTER CSS */
+.footer-section {
+    background-color: #111111;
+    color: #fff;
+}
+ul {
+    list-style: none;
+    text-align: left;
+}
+li {
+    cursor: pointer;
+    line-height: 30px;
+    border-bottom: 1px solid salmon;
+}
+.footer-card {
+    background-color: #111111;
+    margin: 20px 0px;
+}
+.footer-card .green-button {
+    margin-top: 15px;
+}
+/* END FOOTER CSS */
